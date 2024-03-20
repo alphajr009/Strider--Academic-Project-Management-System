@@ -1,0 +1,58 @@
+.navbar-container {
+  width: 250px;
+  height: 750px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: hsla(216, 63%, 57%, 0.8);
+  padding: 20px;
+  font-family: "Aclonica";
+  color: black;
+}
+
+.small-image {
+  width: 240px;
+  height: 240px;
+  margin-left: 47px;
+  margin-top: -50px;
+}
+
+.nav-items {
+  margin-bottom: 20px;
+}
+
+.nav-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  padding: 10px 0;
+}
+
+.nav-item {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: inherit;
+}
+
+.nav-item:hover {
+  color: inherit;
+}
+
+.nav-icon {
+  margin-right: 20px;
+}
+
+.terms {
+  font-size: 12px;
+  text-align: center;
+  font-family: Aclonica;
+  margin-top: 190px;
+}
+
+.policy {
+  font-size: 12px;
+  text-align: center;
+  font-family: Aclonica;
+  margin-top: auto;
+}

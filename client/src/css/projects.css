@@ -1,0 +1,35 @@
+.pl-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.project-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.pl-pagination {
+  display: flex;
+  justify-content: end;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.chart {
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.red-txt {
+  color: red;
+  font-size: large;
+}
+.delete-btn-project {
+  margin-top: 2%;
+}

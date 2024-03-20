@@ -1,0 +1,27 @@
+.Ins-page {
+  display: flex;
+  flex-direction: column;
+}
+
+.ins-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.ins-table {
+  margin-top: 20px;
+}
+
+.ins-header-button {
+  margin-top: 15px;
+}
+
+.modal-form input {
+  margin-bottom: 10px;
+}
+
+.modal-form select {
+  margin-bottom: 10px;
+}
