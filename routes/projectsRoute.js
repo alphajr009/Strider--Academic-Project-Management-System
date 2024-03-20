@@ -6,7 +6,7 @@ const axios = require("axios");
 const moment = require("moment");
 const wordCount = require("word-count");
 
-const GITHUB_PERSONAL_ACCESS_TOKEN = "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";
+const GITHUB_PERSONAL_ACCESS_TOKEN = process.env.GITHUB_PERSONAL_ACCESS_TOKEN;
 
 router.post("/createproject", async (req, res) => {
   try {
